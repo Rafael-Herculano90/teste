@@ -1,0 +1,69 @@
+/*Geral do HTML */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: center ;
+    position: fixed;
+    margin-top: 20px;
+    right: 0;
+    left: 0;
+    height: 5vw;
+}
+
+header span{
+    font-weight: normal;
+    font-size: 35px;
+}
+
+header .logo img{
+    height: 3vw;
+    margin-right: 20px;
+}
+
+main{
+    background-image: url(../IMG/financeiro2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+ }
+
+.filtro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    padding: 10px;
+ }
+
+.filtro button{
+    margin-left: 10px;
+    padding: 3px;
+    border-radius: 2px;
+    border: 2px;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+
+}
+
+tr{
+    background-color: #FFF;
+    border:1px;
+    
+}
+
+td{
+    border: 1px solid #000;
+    padding: 0;
+}
+
